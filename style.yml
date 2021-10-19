@@ -1,5 +1,10 @@
+$name: Geolonia Basic
+
+$background: rgba(254, 254, 254, 1)
+
+
 version: 8
-name: Geolonia Basic
+name: $name
 metadata: {}
 sources:
   oceanus:
