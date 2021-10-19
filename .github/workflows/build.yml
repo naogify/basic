@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install the `charites`
+        run: |
+          npm install -g @unvt/charites
+          
+      - name: Convert the YAML to GeoJSON
+        run: |
+          cd $GITHUB_WORKSPACE
+          charites build style.yml style.json
+          echo "charites" > .gitignore
+
+      - name: Deploy the GeoJSON to `gh-pages`
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
+          publish_branch: gh-pages
+          force_orphan: true
