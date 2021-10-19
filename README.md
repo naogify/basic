@@ -5,8 +5,7 @@
 * [Use this template] ボタンでこのリポジトリをコピー。
 * `style.yml` を編集。
 * しばらくすると `gh-pages` ブランチに `style.json` がコミットされます。
-
-下の URL にアクセスすると、変更結果を確認できます。
+* 変更結果を確認するには、下のような URL にアクセスして下さい。
 
 ```
 https://<あなたの GitHub ユーザー名>.github.io/basic/
