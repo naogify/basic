@@ -5,20 +5,21 @@
 * [Use this template] ボタンでこのリポジトリをコピー。
 * `style.yml` を編集。
 * しばらくすると `gh-pages` ブランチに `style.json` がコミットされます。
-* 変更結果を確認するには、下のような URL にアクセスして下さい。
+* しばらくすると `gh-pages` ブランチに `style.json` がコミットされるので、Geolonia Maps で表示する場合は、その URL を以下のような感じで指定してください。
+
+```
+<div data-style="<style.json の URL>"></div>
+```
+
+例: https://codepen.io/miya0001/pen/bGRKJgV
+
+
+## カスタマイズしたスタイルを、GitHub Pages でプレビューする方法
+
+* [Settings]タブ > サイドバーの [GitHub Pages] > Source で `gh-pages` ブランチを指定する事で、下の URL でカスタマイズしたスタイルをプレビューできます。
 
 ```
 https://<あなたの GitHub ユーザー名>.github.io/basic/
 ```
 例: https://naogify.github.io/basic/
 
-
-## スタイルを Geolonia Maps で使う手順
-
-カスタマイズしたスタイルを Geolonia Maps で表示する場合は、以下のように指定してください。
-
-```
-<div data-style="https://<あなたの GitHub ユーザー名>.github.io/basic/style.json"></div>
-```
-
-例: https://codepen.io/naogify/pen/ZEJOErQ
