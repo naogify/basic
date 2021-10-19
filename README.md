@@ -22,4 +22,4 @@ https://<あなたの GitHub ユーザー名>.github.io/basic/
 <div data-style="https://<あなたの GitHub ユーザー名>.github.io/basic/style.json"></div>
 ```
 
-例: https://codepen.io/miya0001/pen/bGRKJgV
+例: https://codepen.io/naogify/pen/ZEJOErQ
