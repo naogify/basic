@@ -16,7 +16,7 @@ https://<あなたの GitHub ユーザー名>.github.io/basic/
 
 ## 本番環境に適用する手順
 
-カスタマイズしたスタイルを Geolonia Maps で表示する場合は、以下のように指定してください。。
+カスタマイズしたスタイルを Geolonia Maps で表示する場合は、以下のように指定してください。
 
 ```
 <div data-style="https://<あなたの GitHub ユーザー名>.github.io/basic/style.json"></div>
