@@ -25,6 +25,12 @@ jobs:
           charites build style.yml style.json
           echo "charites" > .gitignore
 
+      - name: Set index.html for preview
+        run: |
+          cd $GITHUB_WORKSPACE
+          ls
+          mv .github/workflows/index.html ./index.html
+
       - name: Deploy the GeoJSON to `gh-pages`
         uses: peaceiris/actions-gh-pages@v3
         with:
