@@ -4,7 +4,6 @@
 
 * [Use this template] ボタンでこのリポジトリをコピー。
 * `style.yml` を編集。
-* しばらくすると `gh-pages` ブランチに `style.json` がコミットされます。
 * しばらくすると `gh-pages` ブランチに `style.json` がコミットされるので、Geolonia Maps で表示する場合は、その URL を以下のような感じで指定してください。
 
 ```
@@ -19,7 +18,7 @@
 * [Settings]タブ > サイドバーの [GitHub Pages] > Source で `gh-pages` ブランチを指定する事で、下の URL でカスタマイズしたスタイルをプレビューできます。
 
 ```
-https://<あなたの GitHub ユーザー名>.github.io/basic/
+https://<あなたの GitHub ユーザー名>.github.io/<あなたのレポジトリ名>/
 ```
 例: https://naogify.github.io/basic/
 
