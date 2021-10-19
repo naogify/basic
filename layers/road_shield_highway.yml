@@ -1,4 +1,4 @@
-id: road_shield
+id: road_shield_highway
 type: symbol
 metadata: {}
 source: geolonia
@@ -9,11 +9,14 @@ filter:
   - - <=
     - ref_length
     - 6
+  - - '=='
+    - class
+    - motorway
   - - '!='
     - disputed
     - japan_northern_territories
 layout:
-  icon-image: default_{ref_length}
+  icon-image: highway-JP_{ref_length}
   icon-rotation-alignment: viewport
   symbol-placement:
     base: 1
@@ -25,11 +28,12 @@ layout:
   symbol-spacing: 500
   text-field: '{ref}'
   text-font:
-    - Noto Sans Regular
+    - Noto Sans CJK JP Bold
   text-offset:
     - 0
-    - 0
+    - -0.1
   text-rotation-alignment: viewport
   text-size: 10
   icon-size: 1
-paint: {}
+paint:
+  text-color: '#ffffff'

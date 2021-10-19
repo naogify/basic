@@ -12,7 +12,7 @@ sources:
     type: vector
     minzoom: 8
     url: https://tileserver.geolonia.com/v2/tiles.json?key=YOUR-API-KEY
-sprite: https://sprites.geolonia.com/basic
+sprite: https://sprites.geolonia.com/basic-color
 glyphs: https://glyphs.geolonia.com/{fontstack}/{range}.pbf
 layers:
   - !!inc/file layers/background.yml
@@ -69,7 +69,6 @@ layers:
   - !!inc/file layers/waterway-other.yml
   - !!inc/file layers/waterway-stream-canal.yml
   - !!inc/file layers/waterway-river.yml
-  - !!inc/file layers/waterway-name.yml
   - !!inc/file layers/tunnel-railway.yml
   - !!inc/file layers/tunnel-service-track-casing.yml
   - !!inc/file layers/tunnel-minor-casing.yml
@@ -121,6 +120,7 @@ layers:
   - !!inc/file layers/cablecar.yml
   - !!inc/file layers/cablecar-dash.yml
   - !!inc/file layers/boundary-land-level-4.yml
+  - !!inc/file layers/waterway-name.yml
   - !!inc/file layers/water-name-lakeline.yml
   - !!inc/file layers/water-name-ocean.yml
   - !!inc/file layers/water-name-other.yml
@@ -133,7 +133,9 @@ layers:
   - !!inc/file layers/railway-name.yml
   - !!inc/file layers/road_oneway.yml
   - !!inc/file layers/road_oneway_opposite.yml
-  - !!inc/file layers/road_shield.yml
+  - !!inc/file layers/road_shield_prefectural.yml
+  - !!inc/file layers/road_shield_national.yml
+  - !!inc/file layers/road_shield_highway.yml
   - !!inc/file layers/airport-label-major.yml
   - !!inc/file layers/nt-label-small.yml
   - !!inc/file layers/nt-label-large.yml

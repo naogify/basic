@@ -30,6 +30,11 @@ layout:
       - - concat
         - - get
           - class
+        - '-JP-11'
+    - - image
+      - - concat
+        - - get
+          - class
         - '-11'
     - - image
       - circle-11
