@@ -13,9 +13,12 @@
 例: https://codepen.io/miya0001/pen/bGRKJgV
 
 
-## カスタマイズしたスタイルを、GitHub Pages でプレビューする方法
+## GitHub Pages を設定して変更したスタイルを確認する
 
-* [Settings]タブ > サイドバーの [GitHub Pages] > Source で `gh-pages` ブランチを指定する事で、下の URL でカスタマイズしたスタイルをプレビューできます。
+* GitHub のリポジトリのメニューの中にある [Settings] をクリックしてください。
+* 移動先のページの下の方にある [GitHub Pages] のところで、以下のように設定してください。
+
+![](https://www.evernote.com/l/ABXqA26fEitDNZG6KDxX-Os6Qb8gciGRKSYB/image.png)
 
 ```
 https://<あなたの GitHub ユーザー名>.github.io/<あなたのレポジトリ名>/
