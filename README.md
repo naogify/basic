@@ -10,7 +10,7 @@
 <div data-style="<style.json の URL>"></div>
 ```
 
-例: https://codepen.io/miya0001/pen/bGRKJgV
+例: https://codepen.io/naogify/pen/ZEJOErQ
 
 
 ## GitHub Pages を設定して変更したスタイルを確認する
