@@ -14,7 +14,7 @@ https://<あなたの GitHub ユーザー名>.github.io/basic/
 例: https://naogify.github.io/basic/
 
 
-## 本番環境に適用する手順
+## スタイルを Geolonia Maps で使う手順
 
 カスタマイズしたスタイルを Geolonia Maps で表示する場合は、以下のように指定してください。
 
