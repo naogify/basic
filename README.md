@@ -20,6 +20,8 @@
 
 ![](https://www.evernote.com/l/ABXqA26fEitDNZG6KDxX-Os6Qb8gciGRKSYB/image.png)
 
+* 下の URL にアクセスすると地図が表示されます。
+
 ```
 https://<あなたの GitHub ユーザー名>.github.io/<あなたのレポジトリ名>/
 ```
