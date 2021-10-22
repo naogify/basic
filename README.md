@@ -13,6 +13,32 @@
 例: https://codepen.io/naogify/pen/ZEJOErQ
 
 
+## 色のカスタマイズ
+
+[style.yml](./style.yml) を開いて下さい。 お好きな色のカラーコードに変更しコミットして下さい。
+
+```
+$background: rgba(254, 254, 254, 1)
+
+# カスタマイズここまで
+```
+
+## アイコンのカスタマイズ
+
+[icons](./icons) にある SVG ファイルを編集してコミットして下さい。
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
 ## GitHub Pages を設定して変更したスタイルを確認する
 
 * GitHub のリポジトリのメニューの中にある [Settings] をクリックしてください。
@@ -27,3 +53,4 @@ https://<あなたの GitHub ユーザー名>.github.io/<あなたのレポジ�
 ```
 例: https://naogify.github.io/basic/
 
+ -->
