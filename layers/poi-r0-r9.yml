@@ -21,6 +21,7 @@ layout:
   text-font:
     - Noto Sans Regular
   text-anchor: top
+  icon-anchor: bottom
   icon-image:
     - coalesce
     - - image
@@ -38,7 +39,7 @@ layout:
   text-field: '{name}'
   text-offset:
     - 0
-    - 0.6
+    - 0.3
   text-size: 12
   text-max-width: 9
   visibility: visible
