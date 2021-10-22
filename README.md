@@ -4,10 +4,10 @@
 
 * [Use this template] ボタンでこのリポジトリをコピー。
 * `style.yml` を編集。
-* しばらくすると `gh-pages` ブランチに `style.json` がコミットされるので、Geolonia Maps で表示する場合は、その URL を以下のような感じで指定してください。
+* しばらくすると `gh-pages` ブランチに `style.json` がコミットされるので、Geolonia Maps で表示する場合は、その URL を以下のように指定してください。
 
 ```
-<div data-style="<style.json の URL>"></div>
+<div data-style="https://raw.githubusercontent.com/<あなたのGitHubユーザー名>/<リポジトリ名>/gh-pages/style.json"></div>
 ```
 
 例: https://codepen.io/naogify/pen/ZEJOErQ
