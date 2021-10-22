@@ -25,32 +25,5 @@ $background: rgba(254, 254, 254, 1)
 
 ## アイコンのカスタマイズ
 
-[icons](./icons) にある SVG ファイルを編集してコミットして下さい。
+[icons](./icons) にある SVG ファイルと、同じファイル名で置き換えコミットして下さい。
 
-
-
-
-
-
-
-
-
-
-
-<!-- 
-
-## GitHub Pages を設定して変更したスタイルを確認する
-
-* GitHub のリポジトリのメニューの中にある [Settings] をクリックしてください。
-* 移動先のページの下の方にある [GitHub Pages] のところで、以下のように設定してください。
-
-![](https://www.evernote.com/l/ABXqA26fEitDNZG6KDxX-Os6Qb8gciGRKSYB/image.png)
-
-* 下の URL にアクセスすると地図が表示されます。
-
-```
-https://<あなたの GitHub ユーザー名>.github.io/<あなたのレポジトリ名>/
-```
-例: https://naogify.github.io/basic/
-
- -->
