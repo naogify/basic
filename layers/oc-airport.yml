@@ -18,7 +18,7 @@ layout:
   text-font:
     - Noto Sans Regular
   text-anchor: top
-  icon-image: airport-11
+  icon-image: airport
   text-field:
     - to-string
     - - get

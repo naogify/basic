@@ -27,14 +27,14 @@ layout:
       - - concat
         - - get
           - class
-        - '-JP-11'
+        - '-JP'
     - - image
       - - concat
         - - get
           - class
-        - '-11'
+        - ''
     - - image
-      - circle-11
+      - circle
   text-field: '{name}'
   text-offset:
     - 0
