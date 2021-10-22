@@ -18,7 +18,7 @@ sources:
     type: vector
     minzoom: 8
     url: https://tileserver.geolonia.com/v2/tiles.json?key=YOUR-API-KEY
-sprite: https://raw.githubusercontent.com/$GITHUB_REPOSITORY/gh-pages/basic
+sprite: https://raw.githubusercontent.com/naogify/basic/gh-pages/basic
 glyphs: https://glyphs.geolonia.com/{fontstack}/{range}.pbf
 layers:
   - !!inc/file layers/background.yml
@@ -132,10 +132,10 @@ layers:
   - !!inc/file layers/water-name-other.yml
   - !!inc/file layers/building.yml
   - !!inc/file layers/building-3d.yml
-  - !!inc/file layers/poi-r25.yml
+  # - !!inc/file layers/poi-r25.yml
   - !!inc/file layers/poi-r10-r24.yml
-  - !!inc/file layers/poi-r0-r9.yml
-  - !!inc/file layers/poi-railway.yml
+  # - !!inc/file layers/poi-r0-r9.yml
+  # - !!inc/file layers/poi-railway.yml
   - !!inc/file layers/railway-name.yml
   - !!inc/file layers/road_oneway.yml
   - !!inc/file layers/road_oneway_opposite.yml
