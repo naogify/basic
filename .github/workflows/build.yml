@@ -22,13 +22,19 @@ jobs:
       - name: Convert the YAML to GeoJSON
         run: |
           cd $GITHUB_WORKSPACE
+          node .github/workflows/replace-env.js
           charites build style.yml style.json
           echo "charites" > .gitignore
+
+      - name: Build Icons
+        run: |
+          cd $GITHUB_WORKSPACE
+          npm install -g @mapbox/spritezero glob
+          node .github/workflows/build.js
 
       - name: Set index.html for preview
         run: |
           cd $GITHUB_WORKSPACE
-          ls
           mv .github/workflows/index.html ./index.html
 
       - name: Deploy the GeoJSON to `gh-pages`
