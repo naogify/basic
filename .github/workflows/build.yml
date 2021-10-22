@@ -30,7 +30,7 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE
           npm install -g @mapbox/spritezero glob
-          node .github/workflows/build.js
+          node .github/workflows/icon-build.js
 
       - name: Set index.html for preview
         run: |
