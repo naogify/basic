@@ -2,7 +2,7 @@
 
 ## ユーザーがカスタマイズする際の手順
 
-* [Use this template] ボタンでこのリポジトリをコピー。
+* [Use this template](https://github.com/naogify/basic/generate) ボタンでこのリポジトリをコピー。
 * `style.yml` を編集。
 * しばらくすると `gh-pages` ブランチに `style.json` がコミットされるので、Geolonia Maps で表示する場合は、その URL を以下のように指定してください。
 
