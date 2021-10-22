@@ -38,7 +38,6 @@ layout:
         - ''
     - - image
       - circle
-  icon-allow-overlap: true
   text-field: '{name}'
   text-offset:
     - 0
