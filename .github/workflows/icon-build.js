@@ -3,8 +3,10 @@ var fs = require('fs');
 var glob = require('/usr/local/lib/node_modules/glob');
 var path = require('path');
 
-const svgsPath = path.resolve(__dirname, '..', 'icons');
-const publicPath = path.resolve(__dirname, '..');
+const GITHUB_WORKSPACE = process.argv[2];
+
+const svgsPath = path.resolve(GITHUB_WORKSPACE, 'icons');
+const publicPath = GITHUB_WORKSPACE;
 
 [1, 2].forEach(function(pxRatio) {
     var svgs = glob.sync(path.join(svgsPath, `*.svg`))
