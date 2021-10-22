@@ -22,7 +22,7 @@ jobs:
       - name: Convert the YAML to GeoJSON
         run: |
           cd $GITHUB_WORKSPACE
-          node .github/workflows/replace-env.js
+          node .github/workflows/replace-url.js $GITHUB_WORKSPACE
           charites build style.yml style.json
           echo "charites" > .gitignore
 
